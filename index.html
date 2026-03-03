@@ -19,7 +19,7 @@
     <div class="container topbar__inner">
       <a class="brand" href="#home" aria-label="Go to top">
         <img src="./assets/uni-logo.png" alt="University Logo" class="brand__logo">
-        <span class="brand__text" data-i18n="portfolio">Portfolio</span>
+        <span class="brand__text" data-i18n="portfolio">Portfolio</span>        
       </a>
        
       <nav class="nav" aria-label="Primary">
@@ -27,6 +27,7 @@
         <a href="#skills" data-i18n="skills_title">Skills</a>
         <a href="#projects" data-i18n="projects_title">Projects</a>
         <a href="#contact" data-i18n="contact_title">Contact</a>
+        <a href="#certificates" data-i18n="cert_title">Certificates</a>
       </nav>
 
       <div class="topbar__actions">
@@ -36,7 +37,7 @@
         <button id="langToggle" class="btn btn--ghost" type="button" aria-label="Switch language">
           AR
         </button>
-        <a class="btn" href="./assets/cv.pdf" target="_blank" rel="noopener" data-i18n="Download_cv">Download CV</a>
+        <a class="btn" href="./assets/MY CV.pdf" target="_blank" rel="noopener" data-i18n="Download_cv">Download CV</a>
       </div>
 
       <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
@@ -54,6 +55,7 @@
           <button id="themeToggleMobile" class="btn btn--ghost" type="button">🌙</button>
           <button id="langToggleMobile" class="btn btn--ghost" type="button">AR</button>
           <a class="btn" href="./assets/cv.pdf" target="_blank" rel="noopener" data-i18n="Download_cv">Download CV</a>
+          <a href="#certificates" class="mobileLink" data-i18n="cert_title">Certificates</a>
         </div>
       </div>
     </div>
@@ -92,7 +94,7 @@
           <div class="profile">
             <div class="avatar" aria-hidden="true">
               <!-- Replace with your photo: assets/profile.jpg -->
-              <img src="./assets/my-photo.png" alt="" />
+              <img src="./assets/MO.jpg" alt="" />
             </div>
             <div class="profile__info">
               <h2 class="profile__name" data-i18n="hero_name">Mohamed MOAFY</h2>
@@ -107,11 +109,11 @@
 
           <div class="stats">
             <div class="stat">
-              <div class="stat__num">3</div>
+              <div class="stat__num">4</div>
               <div class="stat__label" data-i18n="stat_projects">Projects</div>
             </div>
             <div class="stat">
-              <div class="stat__num">2</div>
+              <div class="stat__num">5</div>
               <div class="stat__label" data-i18n="stat_certificates">Certificates</div>
             </div>
             <div class="stat">
@@ -171,7 +173,6 @@
           <span class="chip">Marine Systems</span>
           <span class="chip">Industrial Maintenance</span>
           <span class="chip">Energy Systems</span>
-          <span class="chip">Technical Drawing</span>
           <span class="chip">Safety Standards</span>
           <span class="chip">Information Technology</span>
         </div>
@@ -181,8 +182,10 @@
             <h3 class="h3" data-i18n="skills_tech">Technical</h3>
             <ul class="list">
               <li>Industrial equipment maintenance</li>
-              <li>Basic electrical circuits </li>
+              <li>Ship Onboard Systems </li>
               <li>Mechanical components </li>
+              <li>Marine Engines Systems</li>
+              <li>Python Programming</li>
             </ul>
           </div>
 
@@ -190,7 +193,9 @@
             <h3 class="h3" data-i18n="skills_tools">Tools</h3>
             <ul class="list">
               <li>Autocad</li>
-              <li>Microsoft Office</li>
+              <li>Microsoft Word</li>
+              <li>Microsoft Excel</li>
+              <li>Microsoft Powerpoint</li>
             </ul>
           </div>
 
@@ -200,11 +205,40 @@
               <li data-i18n="soft1">Communication</li>
               <li data-i18n="soft2">Problem-solving</li>
               <li data-i18n="soft3">Time management</li>
+              <li data-i18n="soft4">Leadership</li>
+              <li data-i18n="soft5">Project Management</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
+    <section id="certificates" class="section section--alt">
+  <div class="container">
+    <div class="section__head">
+      <h2 data-i18n="cert_title">Certificates</h2>
+    </div>
+
+    <div class="grid2">
+      <article class="card">
+        <h3 class="h3" data-i18n="cert1_name">Cisco Academy Course</h3>
+        <p class="muted" data-i18n="cert1_issuer">Issuer: Cisco Networking Academy | Feb 2026</p>
+        <p data-i18n="cert1_desc">Completed a comprehensive technical course, culminating in a detailed video presentation project to demonstrate practical understanding.</p>
+        <div class="project__tags">
+          <span class="tag">Information Technology</span><span class="tag">Networking</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="h3" data-i18n="cert2_name">Marine Safety & Operations</h3>
+        <p class="muted" data-i18n="cert2_issuer">Issuer: Ship Engine Room Simulation Lab | Summer Trainee 2025</p>
+        <p data-i18n="cert2_desc">Foundational training covering marine safety protocols, emergency response procedures, and risk management in engine rooms.</p>
+        <div class="project__tags">
+          <span class="tag">Safety Standards</span><span class="tag">Marine Operations</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 
     <!-- Projects -->
     <section id="projects" class="section">

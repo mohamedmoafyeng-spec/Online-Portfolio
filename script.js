@@ -50,7 +50,7 @@ const I18N = {
     about_education: "Education",
     edu1: "East Port Said University of Technology",
     edu1b: "Ship Operation and Maintenance Program",
-    edu2: "Expected Graduation: 2027",
+    edu2: "Expected Graduation: 2026",
 
     skills_title: "Skills",
     skills_tech: "Technical",
@@ -59,6 +59,16 @@ const I18N = {
     soft1: "Communication",
     soft2: "Problem-solving",
     soft3: "Time management",
+    soft4: "Leadership",
+    soft5: "Project Management",
+    
+    cert_title: "Certificates",
+    cert1_name: "Cisco Academy Course",
+    cert1_issuer: "Issuer: Cisco Networking Academy | Feb 2026",
+    cert1_desc: "Completed a comprehensive technical course, culminating in a detailed video presentation project to demonstrate practical understanding.",
+    cert2_name: "Marine Safety & Operations",
+    cert2_issuer: "Issuer: [Smat Systems Ship Engine Room Simulation Lab | Summer Trainee] | [2025]",
+    cert2_desc: "Foundational training covering marine safety protocols, emergency response procedures, and risk management in engine rooms.",
 
     projects_title: "Projects",
     p1_desc: "A practical training project focused on ship engine inspection, maintenance procedures, and troubleshooting basic mechanical issues.",
@@ -104,7 +114,7 @@ const I18N = {
     about_education: "التعليم",
     edu1: "جامعة شرق بورسعيد التكنولوجية",
     edu1b: "برنامج تكنولوجيا تشغيل وصيانة السفن",
-    edu2: "متوقع التخرج: 2027",
+    edu2: "متوقع التخرج: 2026",
 
     skills_title: "المهارات",
     skills_tech: "المهارات التقنية",
@@ -113,6 +123,16 @@ const I18N = {
     soft1: "التواصل",
     soft2: "حل المشكلات",
     soft3: "إدارة الوقت",
+    soft4: "القيادة",
+    soft5: "إدارة المشاريع",
+
+    cert_title: "الشهادات",
+    cert1_name: "دورة أكاديمية سيسكو (Cisco)",
+    cert1_issuer: "الجهة المانحة: أكاديمية سيسكو | فبراير 2026",
+    cert1_desc: "إتمام دورة تقنية شاملة، تضمنت إعداد مشروع فيديو تفصيلي كمتطلب أساسي لإثبات الفهم العملي والتطبيقي.",
+    cert2_name: "السلامة والعمليات البحرية",
+    cert2_issuer: "الجهة المانحة: [Smart Systems Engin Room Simulation] | [2025]",
+    cert2_desc: "تدريب أساسي يغطي بروتوكولات السلامة البحرية، إجراءات الاستجابة للطوارئ، وإدارة المخاطر في غرف المحركات.",
 
     projects_title: "المشاريع",
     p1_desc: "مشروع تدريب عملي يركز على فحص محركات السفن وإجراءات الصيانة واستكشاف الأعطال الميكانيكية الأساسية.",
